@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    background-color: #303030;
+    /* background-image: url(../img/Screenshot_3.png); */
+    /* background-size: 100%; */
+    /* background-position: center; */
+    color: white;
+}
+
+button {
+    font-size: 50px;
+}
+
+
+.touchPad:focus{
+    opacity: 1;
+    
+}
+
+
+.touchPad {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    color: black !important;
+}
+
+
+.bgKey1 {
+    background-color: rgba(219, 74, 49);
+    opacity: 0.5;
+    border: 1px solid black;
+    color: black !important;
+}
+
+
+.bgKey2 {
+    background-color: rgb(240, 113, 9);
+    opacity: 0.5;
+    border: 1px solid black;
+}
+
+
+.bgKey3 {
+    background-color: rgba(240, 205, 9);
+    opacity: 0.5;
+    border: 1px solid black;
+}
+
+
+.bgKey4 {
+    background-color: rgba(178, 240, 9);
+    opacity: 0.5;
+    border: 1px solid black;
+}
