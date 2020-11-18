@@ -10,7 +10,11 @@ html, body {
 button {
     font-size: 50px;
 }
-
+@media only screen and (max-device-width: 700px){
+    button {
+        font-size: 20px;
+    }
+}
 
 .touchPad:focus{
     opacity: 1;
